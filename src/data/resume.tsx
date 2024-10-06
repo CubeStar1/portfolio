@@ -125,7 +125,7 @@ export const DATA = {
     },
     {
       title: "ReviewQuery AI",
-      href: "https://github.com/CubeStar1/amazon-review-chatbot",
+      href: "https://github.com/CubeStar1/amazon-reviews-chatbot",
       dates: "September 2024",
       active: true,
       description:
@@ -147,7 +147,7 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/CubeStar1/amazon-review-chatbot",
+          href: "https://github.com/CubeStar1/amazon-reviews-chatbot",
           icon: <Icons.github className="size-3" />,
         },
         // {
@@ -223,7 +223,7 @@ export const DATA = {
     },
     {
       title: "Quantum Chat",
-      href: "https://github.com/CubeStar1/quantum-chat",
+      href: "https://github.com/CubeStar1/QuantumChat",
       dates: "March 2024",
       active: true,
       description:
@@ -240,7 +240,7 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/CubeStar1/quantum-chat",
+          href: "https://github.com/CubeStar1/QuantumChat",
           icon: <Icons.github className="size-3" />,
         },
         {
@@ -285,7 +285,7 @@ export const DATA = {
     },
     {
       title: "ChemPredictor",
-      href: "https://github.com/CubeStar1/chem-predictor",
+      href: "https://github.com/CubeStar1/ChemPredictor",
       dates: "December 2023",
       active: true,
       description:
