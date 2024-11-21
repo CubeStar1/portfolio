@@ -8,10 +8,10 @@ export const DATA = {
   location: "Bangalore, Karnataka",
   locationLink: "https://www.google.com/maps/place/Bangalore",
   description:
-  "3rd Semester Computer Science - Cybersecurity Student at RV College of Engineering",
+  "3rd Semester Information Science and Engineering Student at RV College of Engineering",
     
   summary:
-    "I am a Computer Science student at R.V College of Engineering, specializing in Cybersecurity. I have a strong interest in AI/ML projects and large language models (LLMs), with hands-on experience in developing practical solutions using these technologies.",
+    "I am an Information Science student at R.V College of Engineering. I have a strong interest in AI/ML projects and large language models (LLMs), with hands-on experience in developing practical solutions using these technologies.",
   avatarUrl: "/thecubestar.webp",
   skills: [
     "Python",
@@ -23,7 +23,6 @@ export const DATA = {
     "React",
     "Next.js",
     "TailwindCSS",
-    "shadcn/ui",
     "TensorFlow",
     "Streamlit",
     "FastAPI",
@@ -60,7 +59,7 @@ export const DATA = {
     {
       school: "R.V College of Engineering",
       href: "https://rvce.edu.in",
-      degree: "B.E in Computer Science - Cybersecurity",
+      degree: "B.E in Information Science and Engineering (ISE)",
       logoUrl: "/rv-logo.jpeg",
       start: "2023",
       end: "Present",
@@ -71,8 +70,8 @@ export const DATA = {
       href: "https://srgsbangalore.com/",
       degree: "12th CBSE",
       logoUrl: "/srgs-logo.jpg",
-      start: "2023",
-      end: "2021",
+      start: "2021",
+      end: "2023",
       description: "Score: 95.6%",
     },
     {
