@@ -10,6 +10,7 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import { Icons } from "@/components/icons";
 import { ExternalLink } from "lucide-react";
+import { RainbowButton } from "@/components/ui/rainbow-button";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -51,6 +52,44 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
+
+      <section id="social">
+        <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
+          <div className="flex flex-wrap items-center justify-center gap-4 max-w-2xl mx-auto">
+            <Link
+              href={DATA.contact.social.GitHub.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <RainbowButton className="group flex items-center gap-2 text-sm min-w-32">
+                <DATA.contact.social.GitHub.icon className="h-5 w-5" />
+                <span className="font-medium">GitHub</span>
+              </RainbowButton>
+            </Link>
+            <Link
+              href={DATA.contact.social.LinkedIn.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <RainbowButton className="group flex items-center gap-2 text-sm min-w-32">
+                <DATA.contact.social.LinkedIn.icon className="h-5 w-5" />
+                <span className="font-medium">LinkedIn</span>
+              </RainbowButton>
+            </Link>
+            <Link
+              href={DATA.contact.social.Resume.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <RainbowButton className="group flex items-center gap-2 text-sm min-w-32">
+                <DATA.contact.social.Resume.icon className="h-5 w-5" />
+                <span className="font-medium">Resume</span>
+              </RainbowButton>
+            </Link>
+          </div>
+        </BlurFade>
+      </section>
+
       {/* <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
