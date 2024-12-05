@@ -86,7 +86,43 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Health Monitor AI",
+      title: "Learning Hub",
+      href: "https://github.com/CubeStar1/learning-hub",
+      dates: "November 2024",
+      active: true,
+      description:
+        "Developed an AI-powered learning platform that transforms study materials into interactive content. Features include PDF to podcast conversion with multiple AI voices, automated quiz generation, document summarization and an AI Voice assistant for personalized learning assistance.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "shadcn/ui",
+        "Gemini",
+        "PlayAI",
+        "Supabase",
+        "Vercel"
+      ],
+      image: "/learning-hub-landing.jpg",
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/CubeStar1/learning-hub",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Live Demo",
+          href: "https://learning-hub-ten.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://lrtwzbtwufxwvajoheoj.supabase.co/storage/v1/object/public/pdfs/learning_hub_demo_2.mp4",
+          icon: <Icons.video className="size-3" />,
+        },
+      ],
+    },
+    {
+      title: "Health Monitor",
       href: "https://github.com/CubeStar1/health-monitor-next",
       dates: "September 2024",
       active: true,
@@ -309,8 +345,52 @@ export const DATA = {
         },
       ],
     },
+ 
   ],
   hackathons: [
+    {
+      title: "ACM Generative AI Hackathon - Learning Hub ",
+      dates: "November 2024",
+      location: "Offline",
+      description: "Our team developed an interactive educational platform that allows users to upload PDF files and generate podcasts, summaries and quizzes. We also integrated an AI based Voice Assistant to answer questions and provide information. We were among the top 7 teams selected for the final round out of 60+ teams.",
+      image: "/acm-hackathon.jpg",
+      links: [
+        {
+          title: "Project Link",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/CubeStar1/learning-hub",
+        },
+        {
+          title: "Demo Video",
+          icon: <Icons.video className="h-4 w-4" />,
+          href: "https://lrtwzbtwufxwvajoheoj.supabase.co/storage/v1/object/public/pdfs/learning_hub_demo_2.mp4?t=2024-11-29T15%3A17%3A14.148Z",
+        },
+        {
+          title: "Top 7/60",
+          icon: <Icons.podium className="h-4 w-4" />,
+          href: "https://drive.google.com/file/d/1BdGtVt-YajrKW4Z1oBfsSnSOM2E2kVp5/view?usp=sharing",
+        },
+      ],
+    },
+    {
+      title: "PES University Graviton",
+      dates: "April 2024",
+      location: "Offline",
+      description: "Our team developed QuantumChat, a secure chat system implementing Quantum Key Distribution (QKD) for cryptographic key generation. We integrated real-time chat functionality using WebSockets and simulated quantum circuits with Qiskit. The project demonstrated practical applications of quantum computing in cybersecurity through hybrid RSA-AES encryption.",
+      image: "/graviton-hackathon.jpg",
+      links: [
+        {
+          title: "Project Link",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/CubeStar1/QuantumChat",
+        },
+        {
+          title: "Participation Certificate",
+          icon: <Icons.podium className="h-4 w-4" />,
+          href: "https://drive.google.com/file/d/1phMlQLGUayqI0rxIwWTk63DQ7VtHJ1-0/view?usp=sharing",
+        }
+      ],
+    },
     {
       title: "HPCC Systems Hackathon - FindMySafeHaven",
       dates: "March 2024",
@@ -322,8 +402,13 @@ export const DATA = {
       links: [
         {
           title: "Project Link",
-          icon: <Icons.globe className="h-4 w-4" />,
+          icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/CubeStar1/HPCC-Hackathon-2024-FindMySafeHaven",
+        },
+        {
+          title: "1st Place Certificate",
+          icon: <Icons.crown className="h-4 w-4" />,
+          href: "https://drive.google.com/file/d/1K6E0Vct-NeuH2zQrXOu1w45RuMtsPyE9/view?usp=sharing",
         },
       ],
     },

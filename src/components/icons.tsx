@@ -1,5 +1,5 @@
-import { GlobeIcon, MailIcon, FileIcon, Box, PersonStanding, Bike } from "lucide-react";
-
+import { GlobeIcon, MailIcon, FileIcon, Box, PersonStanding, Bike, Crown, Video } from "lucide-react";
+import { IoIosPodium } from "react-icons/io";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -10,6 +10,8 @@ export const Icons = {
   cube: (props: IconProps) => <Box {...props} />,
   run: (props: IconProps) => <PersonStanding {...props} />,
   bike: (props: IconProps) => <Bike {...props} />,
+  video: (props: IconProps) => <Video {...props} />,
+  podium: (props: IconProps) => <IoIosPodium {...props} />,
   linkedin: (props: IconProps) => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
       <title>LinkedIn</title>
@@ -28,6 +30,7 @@ export const Icons = {
       />
     </svg>
   ),
+  crown: (props: IconProps) => <Crown {...props} />,
   youtube: (props: IconProps) => (
     <svg
       width="32px"
