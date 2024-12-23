@@ -12,7 +12,7 @@ export const DATA = {
     
   summary:
     "I am an Information Science student at R.V College of Engineering. I have a strong interest in AI/ML projects and large language models (LLMs), with hands-on experience in developing practical solutions using these technologies.",
-  avatarUrl: "/thecubestar.webp",
+  avatarUrl: "/logos/thecubestar.webp",
   skills: [
     "Python",
     "C",
@@ -60,7 +60,7 @@ export const DATA = {
       school: "R.V College of Engineering",
       href: "https://rvce.edu.in",
       degree: "B.E in Information Science and Engineering (ISE)",
-      logoUrl: "/rv-logo.jpeg",
+      logoUrl: "/logos/rv-logo.jpeg",
       start: "2023",
       end: "Present",
       description: "CGPA: 9.78",
@@ -69,7 +69,7 @@ export const DATA = {
       school: "Shri Ram Global",
       href: "https://srgsbangalore.com/",
       degree: "12th CBSE",
-      logoUrl: "/srgs-logo.jpg",
+      logoUrl: "/logos/srgs-logo.jpg",
       start: "2021",
       end: "2023",
       description: "Score: 95.6%",
@@ -78,13 +78,70 @@ export const DATA = {
       school: "National Centre for Excellence",
       href: "https://www.ncfe.ac.in/",
       degree: "10th CBSE",
-      logoUrl: "/ncfe-logo.jpeg",
+      logoUrl: "/logos/ncfe-logo.jpeg",
       start: "2008",
       end: "2021",
       description: "Score: 98%",
     },
   ],
   projects: [
+
+    {
+      title: "Virtual Memory Dashboard",
+      href: "https://github.com/CubeStar1/virtual-memory-dashboard",
+      dates: "December 2024",
+      active: true,
+      description:
+        "Developed a real-time memory monitoring and analysis dashboard providing system-wide and process-specific memory insights. Features include memory fragmentation analysis, page fault tracking, memory pressure monitoring, and interactive timeline visualization of memory usage patterns.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "C",
+        "shadcn/ui",
+        "Recharts",
+        "Vercel"
+      ],
+      image: "/memory-flow/dashboard_system_memory_3.png",
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/CubeStar1/memory-flow",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+    },
+    {
+      title: "Data Structure Visualizer",
+      href: "https://github.com/CubeStar1/dsa-visualizer",
+      dates: "December 2024",
+      active: true,
+      description:
+        "Built an interactive web application for visualizing data structures and applications with step-by-step animations. Implemented visualizations for linked lists, stacks, queues, trees, and heaps, along with practical applications like expression conversion and polynomial multiplication.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "shadcn/ui",
+        "Framer Motion",
+        "React Flow",
+        "Vercel"
+      ],
+      image: "/dsa-visualizer/dsa-visualizer-landing-dark_1.png",
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/CubeStar1/dsa-visualizer",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://dsa-visualizer-delta.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+    },
+ 
     {
       title: "Learning Hub",
       href: "https://github.com/CubeStar1/learning-hub",
@@ -102,7 +159,7 @@ export const DATA = {
         "Supabase",
         "Vercel"
       ],
-      image: "/learning-hub-landing.jpg",
+      image: "/acm-genai-hackathon/learning-hub-landing-2.png",
       links: [
         {
           type: "GitHub",
@@ -144,7 +201,7 @@ export const DATA = {
         "Recharts",
         "Vercel"
       ],
-      image: "/health-monitor-landing.jpg",
+      image: "/health-monitor/health-monitor-landing-2.png",
       links: [
         {
           type: "GitHub",
@@ -178,7 +235,7 @@ export const DATA = {
         "OpenAI",
         "Vercel"
       ],
-      image: "/reviewquery-ai-landing-light.jpg",
+      image: "/review-query/review-query-chat.png",
       links: [
         {
           type: "GitHub",
@@ -210,7 +267,7 @@ export const DATA = {
         "OpenAI",
         "Vercel"
       ],
-      image: "/easysql-chat.png",
+      image: "/easysql/easysql-chat-2.png",
       links: [
         {
           type: "GitHub",
@@ -242,7 +299,7 @@ export const DATA = {
         "Supabase",
         "Vercel",
       ],
-      image: "/kcet-scraper-landing.jpg",
+      image: "/kcet-scraper/kcet-scraper-landing.png",
       links: [
         {
           type: "GitHub",
@@ -271,7 +328,7 @@ export const DATA = {
         "WebSockets",
         "IndexedDB",
       ],
-      image: "/quantum-chat-landing.jpg",
+      image: "/quantum-chat/quantum-chat-chat.png",
       links: [
         {
           type: "GitHub",
@@ -304,7 +361,7 @@ export const DATA = {
         "BeautifulSoup",
         "Jupyter Notebook",
       ],
-      image: "/load-predictor-landing.jpg",
+      image: "/loadpredictor/loadpredictor-landing.png",
       links: [
         {
           type: "GitHub",
@@ -331,7 +388,7 @@ export const DATA = {
         "Python",
         "Gemini Pro API",
       ],
-      image: "/chempredictor-landing.jpg",
+      image: "/chempredictor/chempredictor-landing.png",
       links: [
         {
           type: "GitHub",
@@ -345,7 +402,7 @@ export const DATA = {
         },
       ],
     },
- 
+    
   ],
   hackathons: [
     {
@@ -353,7 +410,7 @@ export const DATA = {
       dates: "November 2024",
       location: "Offline",
       description: "Our team developed an interactive educational platform that allows users to upload PDF files and generate podcasts, summaries and quizzes. We also integrated an AI based Voice Assistant to answer questions and provide information. We were among the top 7 teams selected for the final round out of 60+ teams.",
-      image: "/acm-hackathon.jpg",
+      image: "/acm-genai-hackathon/acm-hackathon.jpg",
       links: [
         {
           title: "Project Link",
@@ -377,7 +434,7 @@ export const DATA = {
       dates: "April 2024",
       location: "Offline",
       description: "Our team developed QuantumChat, a secure chat system implementing Quantum Key Distribution (QKD) for cryptographic key generation. We integrated real-time chat functionality using WebSockets and simulated quantum circuits with Qiskit. The project demonstrated practical applications of quantum computing in cybersecurity through hybrid RSA-AES encryption.",
-      image: "/graviton-hackathon.jpg",
+      image: "/logos/graviton-hackathon.jpg",
       links: [
         {
           title: "Project Link",
@@ -397,7 +454,7 @@ export const DATA = {
       location: "Online",
       description:
         "Achieved 1st place in the hackathon with around 30 teams. Developed a platform to help travelers stay informed about the safety of their surroundings by analyzing social factors like poverty, unemployment, and education.",
-      image: "/hpcc-systems-hackathon.png",
+      image: "/logos/hpcc-systems-hackathon.png",
       win: "1st Place Winner",
       links: [
         {
