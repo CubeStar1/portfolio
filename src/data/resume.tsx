@@ -201,7 +201,7 @@ export const DATA = {
         "Recharts",
         "Vercel"
       ],
-      image: "/health-monitor/hm-landing-new.png",
+      image: "/health-monitor/hm-landing-health-assistant.png",
       links: [
         {
           type: "GitHub",
