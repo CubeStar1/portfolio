@@ -92,7 +92,7 @@ export const DATA = {
       dates: "December 2024",
       active: true,
       description:
-        "Developed a real-time memory monitoring and analysis dashboard providing system-wide and process-specific memory insights. Features include memory fragmentation analysis, page fault tracking, memory pressure monitoring, and interactive timeline visualization of memory usage patterns.",
+        "Developed a real-time memory monitoring and analysis dashboard using POSIX system calls. Features include memory fragmentation analysis, page fault tracking, memory pressure monitoring, and interactive timeline visualization of memory usage patterns.",
       technologies: [
         "Next.js",
         "TypeScript",
