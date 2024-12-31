@@ -472,7 +472,7 @@ export const DATA = {
     {
       name: "Speedcubing",
       icon: Icons.cube,
-      description: "Solving Rubik's cubes and other twisty puzzles as quickly as possible. I've been competing since 2016 and have attended 18 official competitions.",
+      description: "Solving Rubik's  cubes and other twisty puzzles as quickly as possible. I've been competing since 2016 and have attended 18 official competitions.",
       link: {
         url: "https://www.worldcubeassociation.org/persons/2016ANIS01",
         text: "WCA Profile"
