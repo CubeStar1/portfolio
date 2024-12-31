@@ -1,6 +1,6 @@
 #  Portfolio
 
-A showcase of my projects and experience as an Information Science student at RV College of Engineering. This portfolio highlights my work web development and machine learning.
+A showcase of my projects and experience as an Information Science student at RV College of Engineering. This portfolio highlights my work in web development and machine learning.
 
 > This portfolio is built on top of [dillionverma's portfolio template](https://github.com/dillionverma/portfolio), which uses Next.js 14, shadcn/ui, and magic ui. The original template has been customized and extended to showcase my projects and experience.
 
