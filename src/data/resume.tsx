@@ -197,7 +197,6 @@ export const DATA = {
         "Cohere",
         "Arduino",
         "ESP8266",
-        "Recharts",
         "Vercel"
       ],
       image: "/health-monitor/hm-landing-health-assistant.png",
