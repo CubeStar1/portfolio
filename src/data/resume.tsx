@@ -380,7 +380,7 @@ export const DATA = {
       dates: "December 2023",
       active: true,
       description:
-        "Created a web interface using Streamlit to predict thermodynamic properties of molecules using an Artificial Neural Network (ANN). Integrated Gemini Pro LLM for providing additional insights on predicted properties and compounds.",
+        "Created a web interface using Streamlit to predict thermodynamic properties of molecules using an Artificial Neural Network (ANN).Integrated Gemini API for providing additional insights on predicted properties and compounds.",
       technologies: [
         "Streamlit",
         "TensorFlow",
