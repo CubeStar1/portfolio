@@ -452,7 +452,7 @@ export const DATA = {
       dates: "March 2024",
       location: "Online",
       description:
-        "Achieved 1st place in the hackathon with around 30 teams. Developed a platform to help travelers stay informed about the safety of their surroundings by analyzing social factors like poverty, unemployment, and education.",
+        "Achieved 1st place in the hackathon with around 30 teams. Developed a platform to help travelers stay informed about the safety of their surroundings by analyzing social factors like poverty, unemployment, and education. Used the HPCC Systems platform to analyze the data.",
       image: "/logos/hpcc-systems-hackathon.png",
       win: "1st Place Winner",
       links: [
