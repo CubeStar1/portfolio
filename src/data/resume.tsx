@@ -431,7 +431,7 @@ export const DATA = {
       title: "PES University Graviton",
       dates: "April 2024",
       location: "Offline",
-      description: "Our team developed QuantumChat, a secure chat system implementing Quantum Key Distribution (QKD) for cryptographic key generation. We integrated real-time chat functionality using WebSockets and simulated quantum circuits with Qiskit. The project demonstrated practical applications of quantum computing in cybersecurity through hybrid RSA-AES encryption.",
+      description: "Our team developed QuantumChat, a  secure chat system implementing Quantum Key Distribution (QKD) for cryptographic key generation. We integrated real-time chat functionality using WebSockets and simulated quantum circuits with Qiskit. The project demonstrated practical applications of quantum computing in cybersecurity through hybrid RSA-AES encryption.",
       image: "/logos/graviton-hackathon.jpg",
       links: [
         {
