@@ -189,7 +189,6 @@ export const DATA = {
         "Next.js",
         "TypeScript",
         "TailwindCSS",
-        "shadcn/ui",
         "FastAPI",
         "Python",
         "Supabase",
