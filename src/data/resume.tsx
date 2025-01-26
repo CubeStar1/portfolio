@@ -11,7 +11,7 @@ export const DATA = {
   "3rd Semester Information Science and Engineering Student at RV College of Engineering",
     
   summary:
-    "I am an Information Science student at R.V College of Engineering. I have a strong interest in AI/ML projects and large language models (LLMs), with hands-on experience in developing practical solutions using these technologies.",
+    "I am an Information Science student at R.V College of Engineering. I have a strong interest in Web Development and AI/ML projects, with hands-on experience in developing practical solutions using these technologies.",
   avatarUrl: "/logos/thecubestar.webp",
   skills: [
     "Python",
