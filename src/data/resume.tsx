@@ -85,14 +85,43 @@ export const DATA = {
     },
   ],
   projects: [
-
+    {
+      title: "RVCE Placements",
+      href: "https://github.com/CubeStar1/rvce-placements",
+      dates: "January 2025",
+      active: true,
+      description:
+        "A platform for tracking placement statistics at RV College of Engineering. Features a real-time dashboard showing total placements, average CTC, department-wise trends, and package distributions",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "shadcn/ui",
+        "Recharts",
+        "Supabase",
+        "Vercel"
+      ],
+      image: "/rvce-placements/rvce-placements-landing.png",
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/CubeStar1/rvce-placements",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://rvce-placements.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+    },
     {
       title: "Virtual Memory Dashboard",
       href: "https://github.com/CubeStar1/virtual-memory-dashboard",
       dates: "December 2024",
       active: true,
       description:
-        "Developed a real-time memory monitoring and analysis dashboard using POSIX system calls. Features include memory fragmentation analysis, page fault tracking, memory pressure monitoring, and interactive timeline visualization of memory usage patterns.",
+        "A real-time memory monitoring and analysis dashboard using POSIX system calls. Features include memory fragmentation analysis, page fault tracking, memory pressure monitoring, and interactive timeline visualization of memory usage patterns.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -117,7 +146,7 @@ export const DATA = {
       dates: "December 2024",
       active: true,
       description:
-        "Built an interactive web application for visualizing data structures and applications with step-by-step animations. Implemented visualizations for linked lists, stacks, queues, trees, and heaps, along with practical applications like expression conversion and polynomial multiplication.",
+        "An interactive web application for visualizing data structures and algorithms with step-by-step animations. Includes visualizations for linked lists, stacks, queues, trees, and heaps, along with practical applications like expression conversion and polynomial multiplication.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -148,7 +177,7 @@ export const DATA = {
       dates: "November 2024",
       active: true,
       description:
-        "Developed an AI-powered learning platform that transforms study materials into interactive content. Features include PDF to podcast conversion with multiple AI voices, automated quiz generation, document summarization and an AI Voice assistant for personalized learning assistance.",
+        "An AI-powered learning platform that transforms study materials into interactive content. Features include PDF to podcast conversion with multiple AI voices, automated quiz generation, document summarization and an AI Voice assistant for personalized learning assistance.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -184,7 +213,7 @@ export const DATA = {
       dates: "September 2024",
       active: true,
       description:
-        "Developed a comprehensive health monitoring application with real-time monitoring, activity tracking, and nutrition logging. Integrated Arduino sensors to display live health metrics and implemented an AI-powered health assistant using OpenAI, Gemini, and Langchain.",
+        "A comprehensive health monitoring application with real-time monitoring, activity tracking, and nutrition logging. Features Arduino sensor integration for live health metrics, RAG-powered health insights using Langchain, and multimodal AI assistants powered by Gemini 2.0 and OpenAI.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -219,7 +248,7 @@ export const DATA = {
       dates: "September 2024",
       active: true,
       description:
-        "Developed a chatbot application that allows users to interact with Amazon review data using natural language. The system scrapes Amazon reviews, converts natural language queries to SQL, and provides real-time query results. It features a Next.js frontend, FastAPI backend for database operations, and a Flask server for web scraping.",
+        "A chatbot application for interacting with Amazon review data using natural language. The system scrapes Amazon reviews, converts natural language queries to SQL, and provides real-time query results with a Next.js frontend and FastAPI backend.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -253,7 +282,7 @@ export const DATA = {
       dates: "September 2024",
       active: true,
       description:
-        "Developed an application that converts natural language input into SQL queries, executes them and display the results along with a summary of the results. It features a Next.js frontend with Tailwind CSS and Shadcn/UI components, and a FastAPI backend for database operations and OpenAI-powered text-to-SQL conversion. The system supports real-time query execution and result display, with options for both real and mock database connections.",
+        "An application that converts natural language input into SQL queries, executes them and displays the results with summaries. Features a Next.js frontend with Tailwind CSS and a FastAPI backend for database operations and OpenAI-powered text-to-SQL conversion.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -379,7 +408,7 @@ export const DATA = {
       dates: "December 2023",
       active: true,
       description:
-        "Created a web interface using Streamlit to predict thermodynamic properties of molecules using an Artificial Neural Network (ANN).Integrated Gemini API for providing additional insights on predicted properties and compounds.",
+        "A web interface for predicting thermodynamic properties of molecules using an Artificial Neural Network (ANN). Features Gemini API integration for providing additional insights on predicted properties and compounds.",
       technologies: [
         "Streamlit",
         "TensorFlow",
@@ -390,7 +419,7 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/CubeStar1/chem-predictor",
+          href: "https://github.com/CubeStar1/ChemPredictor",
           icon: <Icons.github className="size-3" />,
         },
         {
