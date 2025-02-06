@@ -85,36 +85,36 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "RVCE Placements",
-      href: "https://github.com/CubeStar1/rvce-placements",
-      dates: "January 2025",
-      active: true,
-      description:
-        "A platform for tracking placement statistics at RV College of Engineering. Features a real-time dashboard showing total placements, average CTC, department-wise trends, and package distributions",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "TailwindCSS",
-        "shadcn/ui",
-        "Recharts",
-        "Supabase",
-        "Vercel"
-      ],
-      image: "/rvce-placements/rvce-placements-landing.png",
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/CubeStar1/rvce-placements",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Demo",
-          href: "https://rvce-placements.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-    },
+    // {
+    //   title: "RVCE Placements",
+    //   href: "https://github.com/CubeStar1/rvce-placements",
+    //   dates: "January 2025",
+    //   active: true,
+    //   description:
+    //     "A platform for tracking placement statistics at RV College of Engineering. Features a real-time dashboard showing total placements, average CTC, department-wise trends, and package distributions",
+    //   technologies: [
+    //     "Next.js",
+    //     "TypeScript",
+    //     "TailwindCSS",
+    //     "shadcn/ui",
+    //     "Recharts",
+    //     "Supabase",
+    //     "Vercel"
+    //   ],
+    //   image: "/rvce-placements/rvce-placements-landing.png",
+    //   links: [
+    //     {
+    //       type: "GitHub",
+    //       href: "https://github.com/CubeStar1/rvce-placements",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //     {
+    //       type: "Demo",
+    //       href: "https://rvce-placements.vercel.app",
+    //       icon: <Icons.globe className="size-3" />,
+    //     }
+    //   ],
+    // },
     {
       title: "Virtual Memory Dashboard",
       href: "https://github.com/CubeStar1/virtual-memory-dashboard",
