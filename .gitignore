@@ -39,3 +39,5 @@ next-env.d.ts
 sanity.cli.ts
 sanity.config.ts
 /src/app/studio
+latex/cover-letter.tex
+latex/resume.tex
