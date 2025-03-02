@@ -8,7 +8,7 @@ export const DATA = {
   location: "Bangalore, Karnataka",
   locationLink: "https://www.google.com/maps/place/Bangalore",
   description:
-  "3rd Semester Information Science and Engineering Student at RV College of Engineering",
+  "4th Semester Information Science and Engineering Student at RV College of Engineering",
     
   summary:
     "I am an Information Science student at R.V College of Engineering. I have a strong interest in Web Development and AI/ML projects, with hands-on experience in developing practical solutions using these technologies.",
@@ -32,7 +32,7 @@ export const DATA = {
   ],
   contact: {
     email: "avinash.anish05@gmail.com",
-    tel: "+918296152559",
+    tel: "+919876543210",
     social: {
       GitHub: {
         name: "GitHub",
@@ -63,7 +63,7 @@ export const DATA = {
       logoUrl: "/logos/rv-logo.jpeg",
       start: "2023",
       end: "Present",
-      description: "CGPA: 9.78",
+      description: "CGPA: 9.66",
     },
     {
       school: "Shri Ram Global",
