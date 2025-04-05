@@ -118,7 +118,7 @@ export const DATA = {
     {
       title: "NEST - Online Exam Proctoring System",
       href: "https://github.com/ProctorAI",
-      dates: "February 2025",
+      dates: "March 2025",
       active: true,
       description:
         "NEST - Non-Invasive Examinaion Surverillance Tool. A web extension and web application to monitor students during exams and detect any suspicious activities. Features a real-time admin dashboard to monitor the live feed of the students such as mouse movements and keyboard strokes. Uses a web extension to monitor the student's activities and a web application to display the live feed to the admin along with a risk score.",
@@ -149,7 +149,7 @@ export const DATA = {
     {
       title: "Medilink",
       href: "https://github.com/CubeStar1/medilink",
-      dates: "January 2025",
+      dates: "February 2025",
       active: true,
       description:
         "A web application for connecting NGOs with medicine donors. Features role based access control and a dashboard for the admin to manage the NGOs and donors.",
@@ -494,7 +494,7 @@ export const DATA = {
   hackathons: [
     {
       title: "Great Bengaluru Hackathon - NEST",
-      dates: "February 2025",
+      dates: "March 2025",
       location: "Offline",
       description: "Our team developed a web extension and web application to monitor students during exams and detect any suspicious activities. We were among the top 150 teams selected for the second round out of 4500+ teams.",
       image: "/logos/rv-logo.jpeg",
