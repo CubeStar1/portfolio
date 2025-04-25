@@ -115,6 +115,69 @@ export const DATA = {
     //     }
     //   ],
     // },
+
+    {
+      title: "Aviation Weather [Honeywell Designathon 2025 2nd Place Winner]",
+      href: "https://github.com/CubeStar1/aviation-weather-app", 
+      dates: "April 2025", 
+      active: true,
+      description:
+        "A web application providing real-time weather briefings for flight planning, simplifying data analysis with an intuitive interface and AI summaries. Features flight planning, METAR/SIGMET/PIREP/TAF reports, AI summary, voice assistant, and interactive map. Won 2nd place at Honeywell Designathon 2025.", 
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "shadcn/ui",
+        "Leaflet.js",
+        "Flask",
+        "FastAPI",
+        "Python",
+        "Gemini", 
+        "Vercel",
+        "Render"
+      ],
+      image: "/honeywell/aw-map-light.png", 
+      links: [
+        {
+          type: "GitHub", 
+          href: "https://github.com/CubeStar1/aviation-weather-app",
+          icon: <Icons.github className="size-3" />,
+        },
+        { 
+          type: "Demo",
+          href: "https://aviation-weather-app.vercel.app", 
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+    },
+    {
+      title: "DormTrack [Tech Tank Hackathon 2025]",
+      href: "https://github.com/CubeStar1/dorm-track-frontend",
+      dates: "April 2025",
+      active: true,
+      description:
+        "A comprehensive hostel management platform offering automation for room allocation, complaint redressal, mess feedback, event management, and more.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "shadcn/ui",
+        "Vercel",
+      ],
+      image: "/tech-tank/dorm-track-rooms-light.png", 
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/CubeStar1/dorm-track-frontend",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://dormtrack.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+    },
     {
       title: "NEST - Online Exam Proctoring System",
       href: "https://github.com/ProctorAI",
@@ -493,11 +556,60 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Honeywell Designathon 2025 - Aviation Weather",
+      dates: "April 2025",
+      location: "Offline", 
+      description: "Developed a web application providing real-time weather briefings for flight planning. Features included flight planning tools, METAR/SIGMET/PIREP/TAF reports, AI summaries, a voice assistant, and an interactive map. Secured 2nd place in the competition.",
+      image: "/logos/honeywell-logo.png", 
+      win: "2nd Place Winner",
+      links: [
+        {
+          title: "GitHub",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/CubeStar1/aviation-weather-app",
+        },
+        {
+          title: "Demo",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://aviation-weather-app.vercel.app",
+        },
+        {
+          title: "2nd Place Certificate", 
+          icon: <Icons.crown className="h-4 w-4" />, 
+          href:"#" 
+        },
+      ],
+    },
+    {
+      title: "Tech Tank Hackathon 2025 - DormTrack",
+      dates: "April 2025",
+      location: "Offline",
+      description: "Developed a comprehensive hostel management platform offering automation for room allocation, complaint redressal, mess feedback, event management, and more.",
+      image: "/logos/gdg-logo.webp", 
+      links: [
+        {
+          title: "GitHub",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/CubeStar1/dorm-track-frontend",
+        },
+        {
+          title: "Demo",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://dormtrack.vercel.app/",
+        },
+        {
+          title: "Participation Certificate",
+          icon: <Icons.podium className="h-4 w-4" />,
+          href: "https://drive.google.com/file/d/15i4WuNAzERiBFJ35DLtI6gEYXj_zOi4c/view?usp=sharing",
+        }
+      ],
+    },
+    {
       title: "Great Bengaluru Hackathon - NEST",
       dates: "March 2025",
       location: "Offline",
       description: "Our team developed a web extension and web application to monitor students during exams and detect any suspicious activities. We were among the top 150 teams selected for the second round out of 4500+ teams.",
-      image: "/logos/rv-logo.jpeg",
+      image: "/logos/rv-logo.jpeg", // Consider updating if there's a specific hackathon logo
       links: [
         {
           title: "GitHub",
@@ -514,9 +626,9 @@ export const DATA = {
           icon: <Icons.podium className="h-4 w-4" />,
           href: "https://drive.google.com/file/d/1EvvYYCosYI_DeWptBha07LE1dmhT7fSg/view?usp=sharing",
         },
-        
+
       ],
-      
+
 
     },
     {
