@@ -85,6 +85,44 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Triage Flow: AI Medical Triage [Aventus 3.0 Hackathon Finalist]",
+      href: "https://github.com/CubeStar1/triage-flow",
+      dates: "May 2025", 
+      active: true,
+      description:
+        "AI-powered medical triage system assisting users and healthcare professionals by processing text and images for symptom assessment. Utilizes a multimodal approach with ResNet18 for image classification, RAG with FAISS for knowledge, and a dual Gemini ADK agent pipeline for analysis and severity scoring. Aventus 3.0 Hackathon Finalist (Top 12 out of 600+).",
+      technologies: [
+        "Next.js",
+        "TailwindCSS",
+        "shadcn/ui",
+        "FastAPI",
+        "Python",
+        "Supabase",
+        "TensorFlow",
+        "ResNet18",
+        "Google ADK",
+        "Gemini API",
+        "RAG",
+        "FAISS",
+        "Heygen API",
+        "Vercel",
+        "Render",
+      ],
+      image: "/triage-flow/tf-video.png", 
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/CubeStar1/triage-flow",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://triage-flow.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+    },
     // {
     //   title: "RVCE Placements",
     //   href: "https://github.com/CubeStar1/rvce-placements",
@@ -117,7 +155,7 @@ export const DATA = {
     // },
 
     {
-      title: "Aviation Weather [Honeywell Designathon 2025 2nd Place Winner]",
+      title: "Aviation Weather [Honeywell Design-a-thon 2025 2nd Place Winner]",
       href: "https://github.com/CubeStar1/aviation-weather-app", 
       dates: "April 2025", 
       active: true,
@@ -555,6 +593,32 @@ export const DATA = {
     
   ],
   hackathons: [
+    {
+      title: "Aventus 3.0 Hackathon - Triage Flow",
+      dates: "April 2024",
+      location: "Offline", 
+      description:
+        "Developed Triage Flow, an AI-powered medical triage system. The project utilized multimodal input (text and images), ResNet18 for image classification, RAG with FAISS, and a dual Gemini ADK agent pipeline. Achieved Finalist position (Top 12 out of 600+ registrations).",
+      image: "/logos/aventus-logo.webp", 
+      win: "Finalist (Top 12)",
+      links: [
+        {
+          title: "GitHub",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/CubeStar1/triage-flow",
+        },
+        {
+          title: "Demo",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://triage-flow.vercel.app/",
+        },
+        {
+          title: "Top 12/600+",
+          icon: <Icons.podium className="h-4 w-4" />,
+          href: "#",
+        },
+      ],
+    },
     {
       title: "Honeywell Designathon 2025 - Aviation Weather",
       dates: "April 2025",
