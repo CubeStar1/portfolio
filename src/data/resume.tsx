@@ -48,7 +48,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1FsPnuZ4L5LzPT-tzsOUiPYlNCbRLRakE/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1m6jtOjTsP6tBWSz9h7PGKpykWQOn8PKQ/view?usp=sharing",
         icon: Icons.file,
         navbar: true,
       },
@@ -85,6 +85,34 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Novel Security-Aware Routing (SAR) Algorithm",
+      href: "https://github.com/CubeStar1/network-vulnerability-analysis",
+      dates: "June 2025",
+      active: true,
+      description:
+        "Developed a novel Security-Aware Routing (SAR) algorithm for computer networks, enhancing Dijkstra/Bellman-Ford with tunable weights (alpha/beta) for path distance vs. security risk (Random Forest predicted). Demonstrated resilience via Mininet attack simulations (DDoS, MiTM) and built a Next.js/React Flow dashboard for real-time visualization.",
+      technologies: [
+        "Next.js",
+        "Python",
+        "Mininet",
+        "scikit-learn",
+        "React Flow",
+      ],
+      image: "/sar-algorithm/nv-topology.png",
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/CubeStar1/network-vulnerability-analysis",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://sar-routing-algorithms.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+    },
     {
       title: "Triage Flow: AI Medical Triage [Aventus 3.0 Hackathon Finalist]",
       href: "https://github.com/CubeStar1/triage-flow",
@@ -123,6 +151,7 @@ export const DATA = {
         },
       ],
     },
+    
     // {
     //   title: "RVCE Placements",
     //   href: "https://github.com/CubeStar1/rvce-placements",
@@ -595,7 +624,7 @@ export const DATA = {
   hackathons: [
     {
       title: "Aventus 3.0 Hackathon - Triage Flow",
-      dates: "April 2024",
+      dates: "May 2025",
       location: "Offline", 
       description:
         "Developed Triage Flow, an AI-powered medical triage system. The project utilized multimodal input (text and images), ResNet18 for image classification, RAG with FAISS, and a dual Gemini ADK agent pipeline. Achieved Finalist position (Top 12 out of 600+ registrations).",
