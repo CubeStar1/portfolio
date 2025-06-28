@@ -135,7 +135,7 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/CubeStar1/yolo-object-detection",
+          href: "https://github.com/CubeStar1/plant-patrol",
           icon: <Icons.github className="size-3" />,
         },
         {
