@@ -48,7 +48,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1m6jtOjTsP6tBWSz9h7PGKpykWQOn8PKQ/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1OYAWfmlOTggayK5bktbZstdrTw7G4AYR/view?usp=drive_link",
         icon: Icons.file,
         navbar: true,
       },
@@ -85,6 +85,7 @@ export const DATA = {
     },
   ],
   projects: [
+    
     {
       title: "Novel Security-Aware Routing (SAR) Algorithm",
       href: "https://github.com/CubeStar1/network-vulnerability-analysis",
@@ -111,6 +112,37 @@ export const DATA = {
           href: "https://sar-routing-algorithms.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+      ],
+    },
+    {
+      title: "PlantPatrol: Pest & Disease Detection",
+      href: "https://github.com/CubeStar1/yolo-object-detection",
+      dates: "June 2025",
+      active: true,
+      description:
+        "An AI-powered web platform for real-time pest detection and plant health analysis. It uses a custom-trained YOLOv11 model to identify threats from live camera feeds or uploaded images, providing users with instant alerts and data-driven insights to protect crops.",
+      technologies: [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "shadcn/ui",
+        "YOLOv11",
+        "ONNX Runtime",
+        "Supabase",
+        "Vercel AI SDK",
+      ],
+      image: "/plant-patrol/pp-dashboard.png",
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/CubeStar1/yolo-object-detection",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://plant-patrol.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        }
       ],
     },
     {

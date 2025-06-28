@@ -40,6 +40,6 @@ sanity.cli.ts
 sanity.config.ts
 /src/app/studio
 latex/cover-letter.tex
-latex/resume.tex
+# latex/resume.tex
 latex/cover-letter-jpmc.tex
 resume.tex
