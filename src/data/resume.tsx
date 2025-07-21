@@ -85,7 +85,38 @@ export const DATA = {
     },
   ],
   projects: [
-    
+    {
+      title: "IronEye - AI-Powered EO/IR Vision System [HAL Aerothon 3rd Place]",
+      href: "https://github.com/CubeStar1/iron-eye",
+      dates: "July 2025",
+      active: true,
+      description: "Developed an AI-powered air-to-surface classification system using RGB-IR fusion for military object detection. Integrated YOLOv8 with a custom War Thunder dataset (1500+ images) and built a real-time dashboard with Next.js and FastAPI. Implemented edge-enhanced fusion for improved object contrast and MCP server for simulation control.",
+      technologies: [
+        "Python",
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "shadcn/ui",
+        "FastAPI",
+        "YOLOv8",
+        "OpenCV",
+        "WebSockets",
+        "Supabase"
+      ],
+      image: "/hal-aerothon/ironeye-landing.png",
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/CubeStar1/iron-eye",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://iron-eye.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+    },
     {
       title: "Novel Security-Aware Routing (SAR) Algorithm",
       href: "https://github.com/CubeStar1/network-vulnerability-analysis",
@@ -95,6 +126,7 @@ export const DATA = {
         "Developed a novel Security-Aware Routing (SAR) algorithm for computer networks, enhancing Dijkstra/Bellman-Ford with tunable weights (alpha/beta) for path distance vs. security risk (Random Forest predicted). Demonstrated resilience via Mininet attack simulations (DDoS, MiTM) and built a Next.js/React Flow dashboard for real-time visualization.",
       technologies: [
         "Next.js",
+        "TypeScript",
         "Python",
         "Mininet",
         "scikit-learn",
@@ -654,6 +686,31 @@ export const DATA = {
     
   ],
   hackathons: [
+    {
+      title: "HAL Aerothon - IronEye (3rd Place)",
+      dates: "July 2025",
+      location: "Offline",
+      description: "Won 3rd place among 85+ teams at the HAL Aerothon for developing IronEye, an AI-powered EO/IR vision system for military object detection. The solution featured real-time RGB-IR fusion, YOLOv8 classification, and MCP-controlled War Thunder simulation integration.",
+      technologies: ["Python", "Next.js", "YOLOv8", "OpenCV", "WebSockets"],
+      image: "/logos/hal-logo.png",
+      links: [
+        {
+          title: "GitHub",
+          href: "https://github.com/CubeStar1/iron-eye",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          title: "Demo",
+          href: "https://iron-eye.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          title: "3rd Place Certificate",
+          href: "https://drive.google.com/file/d/1cq9gP3nihizTN6UNwd5osXWQeVkJ65hF/view?usp=sharing",
+          icon: <Icons.crown className="size-3" />,
+        },
+      ],
+    },
     {
       title: "Aventus 3.0 Hackathon - Triage Flow",
       dates: "May 2025",
