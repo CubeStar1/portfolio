@@ -63,7 +63,7 @@ export const DATA = {
       logoUrl: "/logos/rv-logo.jpeg",
       start: "2023",
       end: "Present",
-      description: "CGPA: 9.66",
+      description: "CGPA: 9.61",
     },
     {
       school: "Shri Ram Global",
