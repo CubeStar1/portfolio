@@ -787,7 +787,7 @@ export const DATA = {
       ],
     },
     {
-      title: "Honeywell Designathon 2025 - Aviation Weather",
+      title: "Honeywell Designathon 2025 - Aviation Weather (2nd Place)",
       dates: "April 2025",
       location: "Offline", 
       description: "Developed a web application providing real-time weather briefings for flight planning. Features included flight planning tools, METAR/SIGMET/PIREP/TAF reports, AI summaries, a voice assistant, and an interactive map. Secured 2nd place in the competition.",
