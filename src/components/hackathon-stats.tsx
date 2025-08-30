@@ -10,11 +10,11 @@ interface HackathonStatsProps {
 }
 
 export function HackathonStats({ hackathons, className }: HackathonStatsProps) {
-  const awardsCount = 3
+  const awardsCount = 4
 
-  const topFinishes = 6
+  const topFinishes = 7
 
-  const biggestEvent = 4500
+  const biggestEvent = 10000
 
   return (
     <div className={cn("grid grid-cols-2 md:grid-cols-4 gap-4 py-6", className)}>

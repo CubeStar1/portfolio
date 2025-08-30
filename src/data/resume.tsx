@@ -48,7 +48,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/195qyZ60gMA2ixKBy4hfa8VVYG01hp3xt/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1rA5Swf6yIe7fNRzp4ndYHv7aXsDkgiTU/view?usp=sharing",
         icon: Icons.file,
         navbar: true,
       },
@@ -85,6 +85,39 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "OmniAgent - Multi-Agent AI System [HackRX 6.0 1st Place Winner]",
+      href: "https://github.com/CubeStar1/omni-agent",
+      dates: "August 2025",
+      active: true,
+      description:
+        "OmniAgent is an advanced multi-agent AI system that autonomously processes documents, automates web tasks, executes code, and answers complex queries using LLM agents and Model Context Protocol (MCP) servers. Features include multi-format document processing (PDF, PPTX, DOCX, Excel, images), advanced OCR, web automation, code execution (Python, JS, shell), repository/code analysis, and real-time streaming AI responses. Winner of Bajaj Finserv HackRX 6.0 (1st place out of 10,000+ teams).",
+      technologies: [
+        "Next.js 14+",
+        "TypeScript",
+        "Python 3.12+",
+        "FastAPI",
+        "TailwindCSS",
+        "Radix UI",
+        "Supabase",
+        "Docker",
+        "LangChain",
+        "OpenAI/Gemini/Groq/Cerebras",
+        "Playwright MCP",
+        "VoltAgent",
+        "RAG",
+        "Tesseract/EasyOCR",
+        "Pinecone/Qdrant/PGVector"
+      ],
+      image: "/hackrx/omni-agent-chat.png", // Replace with actual logo if available
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/CubeStar1/omni-agent",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+    },
     {
       title: "IronEye - AI-Powered EO/IR Vision System [HAL Aerothon 3rd Place]",
       href: "https://github.com/CubeStar1/iron-eye",
@@ -686,6 +719,22 @@ export const DATA = {
     
   ],
   hackathons: [
+    {
+      title: "Bajaj Finserv HackRX 6.0 - OmniAgent (1st Place)",
+      dates: "August 2025",
+      location: "Offline",
+      description: "Won 1st place out of 10,000+ teams at HackRX 6.0 for developing OmniAgent, a full-stack multi-agent AI system. OmniAgent autonomously processes documents (PDF, PPTX, DOCX, Excel, images), automates web tasks, executes code (Python, JS, shell), and answers complex queries using LLM agents and Model Context Protocol (MCP) servers. Features include advanced OCR, RAG, web scraping, repository/code analysis, and real-time streaming AI responses.",
+      technologies: ["Next.js 14+", "TypeScript", "Python 3.12+", "FastAPI", "Supabase", "Docker", "LangChain", "OpenAI/Gemini/Groq/Cerebras", "Playwright MCP", "VoltAgent"],
+      image: "/logos/hackrx-logo.webp", 
+      win: "1st Place Winner",
+      links: [
+        {
+          title: "GitHub",
+          href: "https://github.com/CubeStar1/omni-agent",
+          icon: <Icons.github className="h-4 w-4" />,
+        }
+      ],
+    },
     {
       title: "HAL Aerothon - IronEye (3rd Place)",
       dates: "July 2025",
