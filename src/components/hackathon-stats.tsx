@@ -12,7 +12,7 @@ interface HackathonStatsProps {
 export function HackathonStats({ hackathons, className }: HackathonStatsProps) {
   const awardsCount = 4
 
-  const topFinishes = 7
+  const topFinishes = 8
 
   const biggestEvent = 10000
 

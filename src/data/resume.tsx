@@ -8,7 +8,7 @@ export const DATA = {
   location: "Bangalore, Karnataka",
   locationLink: "https://www.google.com/maps/place/Bangalore",
   description:
-  "4th Semester Information Science and Engineering Student at RV College of Engineering",
+  "5th Semester Information Science and Engineering Student at RV College of Engineering",
     
   summary:
     "I am an Information Science student at R.V College of Engineering. I have a strong interest in Web Development and AI/ML projects, with hands-on experience in developing practical solutions using these technologies.",
@@ -26,6 +26,9 @@ export const DATA = {
     "TensorFlow",
     "Streamlit",
     "FastAPI",
+    "Electron",
+    "Supabase",
+    "Neo4j",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -86,6 +89,31 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "AI Keyboard (Tabby) - Intelligent Input Layer",
+      href: "https://github.com/CubeStar1/ai-keyboard",
+      dates: "February 2026",
+      active: true,
+      description:
+        "A system-wide AI assistant that transforms your input device into a real-time collaborator. Features an Interview Copilot with automated screen capture for technical analysis, an Action Menu for context-aware text transformations, and a Brain Panel for memory management using Neo4j knowledge graphs. Supports invisible typewriter mode for undetectable AI typing, voice transcription, and full Windows MCP integration for desktop automation across any application.",
+      technologies: [
+        "Electron",
+        "Next.js 15",
+        "TypeScript",
+        "TailwindCSS",
+        "FastAPI",
+        "Python",
+        "Mem0",
+        "Neo4j",
+        "Supabase",
+        "Windows MCP",
+        "Vercel AI SDK",
+      ],
+      image: "/zenith/tabby-actions.png",
+      links: [
+
+      ],
+    },
+    {
       title: "OmniAgent - Multi-Agent AI System [HackRX 6.0 1st Place Winner]",
       href: "https://github.com/CubeStar1/omni-agent",
       dates: "August 2025",
@@ -93,21 +121,15 @@ export const DATA = {
       description:
         "OmniAgent is an advanced multi-agent AI system that autonomously processes documents, automates web tasks, executes code, and answers complex queries using LLM agents and Model Context Protocol (MCP) servers. Features include multi-format document processing (PDF, PPTX, DOCX, Excel, images), advanced OCR, web automation, code execution (Python, JS, shell), repository/code analysis, and real-time streaming AI responses. Winner of Bajaj Finserv HackRX 6.0 (1st place out of 10,000+ teams).",
       technologies: [
-        "Next.js 14+",
+        "Next.js 14",
         "TypeScript",
-        "Python 3.12+",
+        "Python",
         "FastAPI",
         "TailwindCSS",
-        "Radix UI",
         "Supabase",
-        "Docker",
         "LangChain",
-        "OpenAI/Gemini/Groq/Cerebras",
-        "Playwright MCP",
         "VoltAgent",
         "RAG",
-        "Tesseract/EasyOCR",
-        "Pinecone/Qdrant/PGVector"
       ],
       image: "/hackrx/omni-agent-chat.png", // Replace with actual logo if available
       links: [
@@ -720,6 +742,58 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Zenith Hackathon - AI Keyboard (Tabby)",
+      dates: "February 2026",
+      location: "Offline",
+      description:
+        "Developed an intelligent system-wide input layer that transforms any application into an AI-enabled workspace. Integrated an Interview Copilot with real-time screen analysis, context-aware autocompletions using Vercel AI SDK, and a persistent memory system utilizing Neo4j knowledge graphs and Supabase vector stores. Top 4 out of 1000+ submissions and received special jury mention.",
+      technologies: [
+        "Electron",
+        "Next.js 15",
+        "React 19",
+        "Tailwind CSS",
+        "FastAPI",
+        "Python",
+        "Mem0",
+        "Neo4j",
+        "Supabase",
+        "Windows MCP",
+      ],
+      image: "/zenith/zenith-logo.png",
+      win: "Top 4 + Jury Special Mention",
+      links: [
+        {
+          title: "Top 4/1000+",
+          href: "https://drive.google.com/file/d/1UD50vogakc5641V_Wmoq0X5SPDRVfrLK/view?usp=sharing",
+          icon: <Icons.crown className="h-4 w-4" />,
+        },
+      ],
+    },
+    {
+      title: "MindGames Arena NeurIPS 2025 - Revac (1st Place)",
+      dates: "December 2025",
+      location: "Online",
+      description:
+        "Won 1st place in the Social Deduction Track (Open Division) at the MindGames Arena during NeurIPS 2025. Developed Revac_8, a sophisticated multi-module AI agent that integrates memory-based player profiling, social-graph analysis of accusations, and dynamic tone selection for adaptive communication in the game Secret Mafia.",
+      technologies: [
+        "Python",
+        "LLMs",
+        "Reasoning Agents",
+        "OpenAI",
+        "Groq",
+        "Social Alignment Graph",
+      ],
+      image: "/neurips/neurips-logo.png", 
+      win: "1st Place Winner",
+      links: [
+        {
+          title: "GitHub",
+          href: "https://github.com/mihiraryaa/mindgames_NeurIPS2025",
+          icon: <Icons.github className="h-4 w-4" />,
+        },
+      ],
+    },
+    {
       title: "Bajaj Finserv HackRX 6.0 - OmniAgent (1st Place)",
       dates: "August 2025",
       location: "Offline",
@@ -732,7 +806,13 @@ export const DATA = {
           title: "GitHub",
           href: "https://github.com/CubeStar1/omni-agent",
           icon: <Icons.github className="h-4 w-4" />,
-        }
+        },
+        {
+          title: "1st Place Certificate",
+          href: "https://drive.google.com/file/d/1kBPko2PPnBMQ4B8o4hIVmkLwcBI9kGwl/view?usp=sharing",
+          icon: <Icons.crown className="size-3" />,
+        },
+
       ],
     },
     {
@@ -906,7 +986,7 @@ export const DATA = {
       ],
     },
     {
-      title: "HPCC Systems Hackathon - FindMySafeHaven",
+      title: "HPCC Systems Hackathon - FindMySafeHaven (1st Place)",
       dates: "March 2024",
       location: "Online",
       description:
